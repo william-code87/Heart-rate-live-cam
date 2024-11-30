@@ -11,7 +11,7 @@ from scipy.signal import butter, find_peaks
 img_size = 72
 window_size = 180
 stride = 30
-model_checkpoint = r'D:\Code\Project poker\main\rppg\EfficientPhys_model85_rorate10.pt'
+model_checkpoint = 'Model.pt'
 
 def live_cam_bpm_prediction():
     # Load model
